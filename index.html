@@ -1,63 +1,836 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <title>Nick Liu</title>
-  <meta name="description" content="Nick Liu">
-  <meta name="author" content="Nick Liu">
-  <meta name="theme-color" content="#fff">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Nick liu</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import Font Awesome-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
 
-  <div class="section valign-wrapper" style="height:80vh;">
-    <div class="container valign">
-      <h1 class="header">Nick Liu</h1>
-      <h5>
-        3rd year EE/CS double major at Georgia Tech. 
-      </h5>
-      <h5>
-        Interested in FPGA/ASIC, embedded systems, computer architecture, and electronics.
-      </h5>
-      <h5>
-        Intern at SpaceX, Tesla, and Northrop Grumman.
-      </h5>
-      <div align ="">
-        <div class="btn-group">
-          <div class="">
-            <a href="./nickLiuResume.pdf" class="white-text"><i class="fa fa-fw fa-file-pdf-o fa-4x" aria-hidden="true"></i></a>
-          </div>
-          <div class="">
-            <a href="mailto:nickliu96@gmail.com" class="white-text"><i class="fa fa-fw fa-envelope-o fa-4x" aria-hidden="true"></i></a>
-          </div>
-          <div class="">
-            <a href="https://github.com/nliu96" class="white-text"><i class="fa fa-fw fa-github fa-4x" aria-hidden="true"></i></a>
-          </div>
-          <div class="">
-            <a href="https://www.linkedin.com/in/nick-liu-b83260106/" class="white-text"><i class="fa fa-fw fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-          </div>
-          <div class="">
-            <a href="https://www.facebook.com/nicholas.liu.33633" class="white-text" ><i class="fa fa-fw fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-          </div>
-        </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Nick Liu.</h1>
+            <h3>I'm an ambitious <span>hardware</span> and <span>software engineer</span> looking to always learn more and to do something great. I am currently looking for a  <a class="smoothscroll" href="#about">summer internship</a>
+            in <a class="smoothscroll" href="#about">hardware design</a> to improved my <a class="smoothscroll" href="#about">circuit design</a> and <a class="smoothscroll" href="#about">PCB design</a> skills.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="mailto:nickliu96@gmail.com"><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://github.com/nliu96"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/nick-liu-b83260106/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.facebook.com/nicholas.liu.33633"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+         </div>
       </div>
-    </div>
-  </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I'm Nick Liu, a current 4th year undergraduate Electrical Engineering and Computer Science double major at Georgia Tech. I am interested in a lot of things including circuit/PCB design, FPGAs/ASICs, embedded systems, high performance computing, computer architecture, and machine learning. I have gained a lot of varied industry experience from internships at companies such as SpaceX, Tesla, and Northrop Grumman. Also, my research experiences include working with FPGAs, GPUs/GPGPUs, CubeSats, and Rockets. I am always interested in learning new things and am interested in any oppurtunities that allow me to do so.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Nick Liu</span><br>
+						   <span>100 Stanford Ridge<br>
+						         Johns Creek, GA 30097 US
+                     </span><br>
+						   <span>(678)-642-1508</span><br>
+                     <span>nickliu96@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="resume_nickLiu.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Georgia Institute of Techonology</h3>
+                  <p class="info">B.S. in Electrical Engineering and B.S. in Computer Science <span>&bull;</span> <em class="date">3.68/4.0</em> <span>&bull;</span> <em class="date">August 2014 - December 2018 (Expected)</em></p>
+
+                  <p>
+                  I am currently double majoring at Georgia Tech, trying to earn both an Electrical Engineering and Computer Science degree. My coursework focues on computer architecture, machine learning, VLSI, and circuits.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>SpaceX</h3>
+                  <p class="info">Satellite Development Intern<span>&bull;</span> <em class="date">Irvine, CA</em><span>&bull;</span> <em class="date">May 2017 - August 2017</em></p>
+
+                  <p>
+                  I interned on the satellite development team at SpaceX and was in charge of verifying the interrupt controller and the error handling of the modem processor ASIC. Also, I verified the operation of the AMBA APB register file on the processor. I wrote UVM tests that tested the two parts thoroughly. In addition, I was in charge of the regression for the team. I change the whole flow from manual to automated regression testing with a continuous integration solution. The regressions consisted of Atlassian Bamboo jobs and Python scripts to support it.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Tesla</h3>
+                  <p class="info">Firmware Validation Intern<span>&bull;</span> <em class="date">Palo Alto, CA</em><span>&bull;</span> <em class="date">January 2017 - April 2017</em></p>
+
+                  <p>
+                  I interned on the Firmware Validation team at Tesla and was in charge of validating the thermal/HVAC systems of the car. Specifically, I was in charge of making an automated tester box that ran a regressions of tests that would validate the thermal firmware. The tester box interacted with the car through CAN and an internal diagnostic tool that allowed me to send commands and recieve data from the car. Also, I had a thermocouple DAQ that verified that certain points had the correct temperature in the car.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Northrop Grumman</h3>
+                  <p class="info">Processing Technologies Intern<span>&bull;</span> <em class="date">Baltimore, MD</em><span>&bull;</span> <em class="date">May 2016 - August 2016</em></p>
+
+                  <p>
+                  I interned on the Advanced Verification team at Northrop Grumman. I had two main projects, improving project infrastructure and verifying a master-slave block pair. For improving project infrastructure, I changed various Make, Python, and Bash scripts to increase compile speed. For the verification of the blocks, I learned and applied UVM testing in order to create a testbench for the DUT.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Georgia Institute of Technology</h3>
+                  <p class="info">Teaching Assistant<span>&bull;</span> <em class="date">Atlanta, GA</em><span>&bull;</span> <em class="date">August 2015 - December 2015</em></p>
+
+                  <p>
+                  I was a teaching assistant for ECE 2031, Digital Design Laboratory, and helped facilitate labs involving rapid prototyping, FPGA design, oscilloscopes, state machines, VHDL, and Assembly.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Research</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Yellow Jacket Space Program</h3>
+                  <p class="info">Avionics Team Member<span>&bull;</span> <em class="date">August 2017 - Present</em></p>
+
+                  <p>
+                  I am working on the avionics team at YJSP which is trying to launch a rocket that is capable of carrying a small payload above the Karman Line. Specifically, I am working on the high speed DAQ board for the rocket engine hot fire test. The design includes interfacing a PSoC with many different sensors and packaging that data and putting it on all a PCB.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>RISC-V Research</h3>
+                  <p class="info">Undergraduate Research Assistant <span>&bull;</span> <em class="date">August 2017 - Present</em></p>
+
+                  <p>
+                  I am working with Professor Hyesoon Kim on RISC-V research. Specifically, we are looking at rocket chip, a RISC-V implementation, in Chisel. We are building the project, putting it on an FPGA. After that, different memory configurations are tried to benchmark the performance of the soft core. Later on, we ideally want to implement new memory architecture features and benchmark those too.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>HMC Research</h3>
+                  <p class="info">Undergraduate Research Assistant <span>&bull;</span> <em class="date">August 2015 - Present</em></p>
+
+                  <p>
+                  I am working with Jeff Young on researching Hybrid Memory Cubes, a new type of DRAM memory architecture. Mainly, I have been working with Pico GUPS, a benchmarking framework for testing HMCs. This includes modifying the underlying C++ infrastructure and Verilog code in order to add more benchmarking features.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Tensor Decomposition Research</h3>
+                  <p class="info">Undergraduate Research Assistant <span>&bull;</span> <em class="date">August 2017 - Present</em></p>
+
+                  <p>
+                  I am working on optimizing Tensor Decomposition with Jiajia Li. We are specifically working on HiCOO format based MTTKRP and CP decomposition on GPUs. This mainly means modifying CUDA code to run and test different kernels for MTTKRP and compare performance.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>RECONnaissance of Space Objects</h3>
+                  <p class="info">Electrical Power System Team Member <span>&bull;</span> <em class="date">January 2016 - December 2016</em></p>
+
+                  <p>
+                  The Power subsystem handles all of the power components on the RECONSO cubesat. We have solar panels that make up the exterior of the satellite in order to receive power to sustain the operations of our satellite. We also handle how all of the power is distributed throughout the system and handle any power anomalies that might occur. Specifically, I was in charge of testing the CubeSat battery with an Arduino interfacing with it using I2C. Also, I designed a power routing PCB to distribute power to all of the different components in the CubeSat.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>VIP - Configurable Computing & Embedded Systems
+</h3>
+                  <p class="info">General Team Member<span>&bull;</span> <em class="date">January 2016 - May 2016</em></p>
+
+                  <p>
+                  The objective of the group is to develop smart city infrastructure using configurable hardware as a computational platform. This means putting many different sensors on an FPGA running Embedded Linux to act as an IoT node. Speicifcally I was tasked with improving the network connection by changing the chron job at startup. Also, I added a LED feedback system involving adding a GPIO connection in the FPGA, changing the firmware, and interfacing it all with a power relay.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Classes</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Electrical Engineering</h3>
+
+                  <p class="info">ECE 2020 <span>&bull;</span> <em class="date">Fundamentals of Digital Design</em></p>
+                  <p>Introductory digital design class. Learned about boolean logic, gates, ISAs, and processors</p>
+                  <p class="info">ECE 2020 <span>&bull;</span> <em class="date">Intro to Signal Processing</em></p>
+                  <p>Introductory DSP class on sampling, filtering, frequency responses, DFTs, Z transforms. Labs involved using DSP in Matlab.</p>
+                  <p class="info">ECE 2031 <span>&bull;</span> <em class="date">Digital Design Laboratory</em></p>
+                  <p>Designed and implemented digital systems using FPGAs. Learned about CAD tools, project design, digital measurement instruments, and assembly.</p>
+                  <p class="info">ECE 2036 <span>&bull;</span> <em class="date">Engineering Software Design</em></p>
+                  <p>Learned about C++ and basic OOP. Projects included interfacing with Mbed microcontroller.</p>
+                  <p class="info">ECE 2040 <span>&bull;</span> <em class="date">Circuit Analysis</em></p>
+                  <p>Basic circuits class learning about AC and DC circuit analysis and theory.</p>
+                  <p class="info">ECE 3025 <span>&bull;</span> <em class="date">Electromagnetics</em></p>
+                  <p>Electromagnetics class about transmission line throy and electromagnetic fields.</p>
+                  <p class="info">ECE 3040 <span>&bull;</span> <em class="date">Microelectronic Circuits</em></p>
+                  <p>Microelectronics class on semiconductor physics and transistor circuit analysis.</p>
+                  <p class="info">ECE 3043 <span>&bull;</span> <em class="date">Measurements, Circuits and Microelectronics Laboratory</em></p>
+                  <p>Basic electronic test instrumentation. Elementary passive and active circuits using both discrete (diodes, bipolar junction transistors, MOSFETs) and integrated devices (operational amplifiers).
+</p>
+                  <p class="info">ECE 3072 <span>&bull;</span> <em class="date">Electrical Energy Systems </em></p>
+                  <p>Power class on control of electrical energy and electromechanical systems.</p>
+                  <p class="info">ECE 3084 <span>&bull;</span> <em class="date">Signals and Systems</em></p>
+                  <p>Continuous-time linear systems and signals. Fourier and Laplace transforms, convolutions, stability.</p>
+                  <p class="info">ECE 3150 <span>&bull;</span> <em class="date">VLSI and Advanced Digital Design</em></p>
+                  <p>Digital design class with emphasis on VLSI. Labs included designing schematic, sizing, and laying out designs adhering to DRC and LVS.</p>
+                  <p class="info">ECE 4130 <span>&bull;</span> <em class="date">Advanced VLSI Systems</em></p>
+                  <p>Advanced VLSI class with emphasis on designing complex systems. Projects including building up DRAM memory system with interconnect and adders.</p>
+                  <p class="info">ECE 4180 <span>&bull;</span> <em class="date">Embedded Systems Design</em></p>
+                  <p>Embedded systems class. Labs included working with different sensors, I/O, and RTOS.</p>
+                  <p class="info">ECE 4550 <span>&bull;</span> <em class="date">Control System Design</em></p>
+                  <p>Design of control algorithms using state-space methods, microcontroller implementation of control algorithms in C, and laboratory projects emphasizing motion control applications.
+</p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Computer Science</h3>
+                  <p class="info">CS 1331 <span>&bull;</span> <em class="date">Introduction to Object-Oriented Programming</em></p>
+                  <p>Learn fundamental concepts of object-oriented programming, basic object-oriented design principles</p>
+                  <p class="info">CS 1332 <span>&bull;</span> <em class="date">Data Structures and Algorithms</em></p>
+                  <p>Introduction to computer data structures and algorithms in the context of object-oriented programming.</p>
+                  <p class="info">CS 1371 <span>&bull;</span>Computing for Engineers<em class="date"></em></p>
+                  <p>Introductory course on Matlab and programming.</p>
+                  <p class="info">CS 2050 <span>&bull;</span> <em class="date">Intro Discrete Math for Comp Sci</em></p>
+                  <p>Math course on basic primitives and paradigms of the mathematical theory of computation</p>
+                  <p class="info">CS 2110 <span>&bull;</span> <em class="date">Computer Organization and Programming</em></p>
+                  <p>Class on the structure and operation of a modern computer from the ground up. Basic hardware concepts: digital circuits, gates, bits, bytes, number representation. Assembly language. Introduction to C.</p>
+                  <p class="info">CS 2200 <span>&bull;</span> <em class="date">An Introduction to Computer Systems and Networks</em></p>
+                  <p>Provides a broad exposure to computer system structure and networking including software abstractions in operating systems for orchestrating the usage of the computing resources</p>
+                  <p class="info">CS 2340 <span>&bull;</span> <em class="date">Objects and Design</em></p>
+                  <p>Introduction to software engineering. Covers concepts such as agile, build automation, version control, user testing, and refactoring.</p>
+                  <p class="info">CS 3210 <span>&bull;</span> <em class="date">Design Operating Systems</em></p>
+                  <p>Operating systems class with labs from MIT operating systems class.</p>
+                  <p class="info">CS 3220 <span>&bull;</span> <em class="date">Processor Design</em></p>
+                  <p>Project based class on implementing a pipelined processor on FPGA.</p>
+                  <p class="info">CS 3510 <span>&bull;</span> <em class="date">Design & Analysis of Algorithms</em></p>
+                  <p>Mathematically oriented introduction to algorithm design. Main topics are recursion, dynamic programming, linear programming, and NP hard problems.</p>
+                  <p class="info">CX 4220 <span>&bull;</span> <em class="date">Introduction to High Performance Computing</em></p>
+                  <p>Design of algorithms and software for high performance computing platforms used in computational science and engineering. Topics include parallelism, locality, machine architectures, and programming.s</p>
+                  <p class="info">CS 4290 <span>&bull;</span> <em class="date">High-Performance Computer Architecture</em></p>
+                  <p>Class on fundamental structures in modern microprocessor and computer system architecture design.</p>
+                  <p class="info">CS 4476 <span>&bull;</span> <em class="date">Computer Vision</em></p>
+                  <p>An introduction to computer vision including fundamentals of image formation, camera imaging geometry, feature detection and matching, stereo, motion estimation and tracking, image classification and scene understanding</p>
+                  <p class="info">CS 4641 <span>&bull;</span> <em class="date">Machine Learning</em></p>
+                  <p>Introductory survey of modern machine learning. Went over Supervised learning, unsupervised learning, and reinforcement learning.</p>
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <p>These are the languages I'm most familiar with:
+            </p>
+
+				<div class="bars">
+
+
+				   <ul class="skills">
+                  <li><span class="bar-expand css"></span><em>Verilog</em></li>
+					   <li><span class="bar-expand photoshop"></span><em>Java</em></li>
+                  <li><span class="bar-expand html5"></span><em>Matlab</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>C</em></li>
+                  <li><span class="bar-expand jquery"></span><em>Python</em></li>
+						<li><span class="bar-expand wordpress"></span><em>C++</em></li>
+					</ul>
+
+               <p>I know many other languages and skills
+               </p>
+               <p class="info">Programming <span>&bull;</span> <em class="date">Java, C, C++, Verilog, VHDL, SystemVerilog(UVM), MATLAB, Assembly, Python, Tcl, Bash, Jenkins, OpenMPI, OpenCL, CUDA</em></p>
+               <p class="info">Software <span>&bull;</span> <em class="date">Linux, Quartus, Vivado, ModelSim, QuestaSim, Spice, Cadence, KiCad, Eagle, Multisim, Subversion, Git</em></p>
+               <p class="info">Hardware <span>&bull;</span> <em class="date">FPGA, MCU, Oscilloscope, Function Generator, Logic Analyzer, Multimeter, Power Supply, Soldering</em></p>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/map_bot.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>MapBot</h5>
+                              <p>Embedded Systems</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/de0.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Pipelined Processor</h5>
+                              <p>FPGA</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/feature_matching.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Feature Matching</h5>
+                              <p>Computer Vision</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/adder_layout.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Adder Layout</h5>
+                              <p>VLSI</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/map_bot.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Map Bot</h4>
+			      <p>The project is an autonomously moving robot that creates a floorplan of the room and sends the information serially to a PC. The robot autonomously moves around a room, avoiding obstacles along its way. It constantly streams serial data gathered from the IR sensors and the IMU through the xbee radio to the PC. The PC then processes the data and draws a map of the room as the robot moves throughout it.</p>
+               <span class="categories"><i class="fa fa-tag"></i>mbed</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://os.mbed.com/users/nliu96/notebook/mapbot/">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/de0.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Pipelined Processor</h4>
+			      <p>In this project, I designed a five-stage pipelined processor and synthesize it on my FPGA board. The processor supported an ISA. My five stages were fetch, decode, execute, memory, and writeback.</p>
+               <span class="categories"><i class="fa fa-tag"></i>FPGA, Computer Architecture</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/parasj/CS3220">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/feature_matching.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Feature Matching</h4>
+			      <p>The purpose of this assignment is to create a local feature matching algorithm. The pipeline implemented was a simpler version of Scale-Invariant Feature Transform (SIFT) pipeline. This will allow us to match features between multiple views of the same thing.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Matlab, Computer Vision</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.cc.gatech.edu/~hays/compvision/results/proj2/html/nliu41/index.html">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/adder_layout.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Adder Layout</h4>
+			      <p>My task was to implement a 32 bit carry look ahead adder. I sized for timing, layed it out, passed DRC and LVS, and simulated best and worst case delays of design.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Cadence, Spice</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">If you want to contact me with any oppurtunities or just say hi, you can fill out the form below.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="mailto:nickliu96@gmail.com" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Nick Liu<br>
+						   100 Stanford Ridge <br>
+						   Johns Creek, GA 30097 US<br>
+						   <span>(678)-642-1508</span>
+					   </p>
+
+				   </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
